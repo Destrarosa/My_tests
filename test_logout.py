@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from auto.myData import LOGIN, PASSWORD, MAIN_PAGE, CURRENT_URL
 from auto.myLocator import *
-from auto.Selectors import *
+from auto.mySelectors import *
 
 import time
 driver = webdriver.Chrome()

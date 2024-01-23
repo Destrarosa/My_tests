@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 import time
 from auto.myData import LOGIN, PASSWORD, MAIN_PAGE, CURRENT_URL
 from auto.myLocator import USERNAME_FIELD, PASSWORD_FIELD, LOGIN_BUTTON
-from auto.Selectors import NAME_OF_PICTURE
+from auto.mySelectors import NAME_OF_PICTURE
 driver = webdriver.Chrome()
 def test_click_name():
     driver.get(MAIN_PAGE)

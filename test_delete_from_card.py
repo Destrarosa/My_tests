@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 import time
 from auto.myData import LOGIN, PASSWORD, MAIN_PAGE
 from auto.myLocator import USERNAME_FIELD, PASSWORD_FIELD, LOGIN_BUTTON
-from auto.Selectors import *
+from auto.mySelectors import *
 driver = webdriver.Chrome()
 
 def test_delete_from_card():
